@@ -4834,4 +4834,4 @@ console.log("MessageCreate listeners:", client.listenerCount("messageCreate"));
 
 // ================= LOGIN =================
 
-client.login(TOKEN)
+client.login(process.env.TOKEN)
